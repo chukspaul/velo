@@ -1,0 +1,81 @@
+.navbar-inverse {background-color: blue }
+
+.btn-success {background-color: red}
+
+.container-fluid {
+
+  font-family: monospace;
+  font-style: bold;
+}
+            
+
+
+main {float:left;
+width:100%
+}
+
+aside{
+    float: right;
+    width:30%
+        background:#1f004d;
+    margin-top: 20px;
+    padding:10px;
+}
+input[type=text],select,textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing: border-box;
+    margin-top:6px;
+    margin-bottom: 16px;
+    resize:vertical ;
+}
+
+
+input[type=submit] {background-color: #4caf50;
+color: white;
+padding:12px 20px
+border:none;
+border-radius:4px;
+    cursor: grab
+}
+
+
+input 
+[type=submit]: hover{background-color: red;}
+
+.container
+{border-radius:5px;
+    background-color: #f3f3f3;
+    padding:20px
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing:0;
+    width:70%
+        border:1px solid #ddd;
+}
+th, td {
+    text-align: center
+        
+}
+
+
+tr:nth-child(even) {background-color:wheat}
+
+footer{
+    text-align:center;
+    padding: 10px;
+    background: #664;
+        margin-top: 30px;
+    font-weight:300;
+}
+
+h2, h3 { 
+    text-align: :center;
+    background-color:#b30086;
+    padding:10px
+
+}
